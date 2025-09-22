@@ -248,7 +248,7 @@ class InventarioApp(QWidget):
         for producto, cantidad, subtotal in self.carrito_items:
             recibo += f"{producto} x{cantidad} = ${subtotal:.2f}\n"
         recibo += "----------------------------\n"
-        recibo += f"TOTAL A PAGAR: ${self.total:.2f}"
+        recibo += f"TOTAL: ${self.total:.2f}"
 
         QMessageBox.information(self, "Recibo", recibo)
 
