@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QIcon
 
+print("Iniciando la aplicación de inventario...")
 
 class InventarioApp(QWidget):
     def __init__(self):
